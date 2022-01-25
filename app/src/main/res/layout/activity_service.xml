@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Service">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please insert your service details"
+        android:textSize="24dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="24dp"
+        android:layout_below="@+id/texttitle"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:textSize="24dp"
+        android:layout_below="@+id/name"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Date"
+        android:textSize="24dp"
+        android:layout_below="@+id/amount"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/mechanic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mechanic"
+        android:textSize="24dp"
+        android:layout_below="@+id/date"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment Method"
+        android:textSize="24dp"
+        android:layout_below="@+id/mechanic"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/sName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type of service"
+        android:textSize="24dp"
+        android:layout_below="@+id/payment"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Save"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/sName"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Update"
+        android:layout_below="@+id/btnInsert"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Delete"
+        android:layout_below="@+id/btnUpdate"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="View Data"
+        android:layout_below="@+id/btnDelete"/>
+
+
+
+</RelativeLayout>

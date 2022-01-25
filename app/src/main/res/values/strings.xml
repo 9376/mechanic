@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Mechanic</string>
+    <string name="title_activity_client_maps">Map</string>
+</resources>

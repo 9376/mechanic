@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986202596884",
+    "firebase_url": "https://my-mechanic-5c6e5-default-rtdb.firebaseio.com",
+    "project_id": "my-mechanic-5c6e5",
+    "storage_bucket": "my-mechanic-5c6e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986202596884:android:fd01bf86d333c328502901",
+        "android_client_info": {
+          "package_name": "com.example.mymechanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986202596884-va46ldrmgit9pt1hktb0fh4eu822b2lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mymechanic",
+            "certificate_hash": "2f20e8505540e406021c8dee197a3ef017ab1b29"
+          }
+        },
+        {
+          "client_id": "986202596884-ltga5varsmhgaf2hbj2rmg7sokcsarjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdSVZ8Z_OZz_HGUxMmfPYsQEXemqaOJr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986202596884-ltga5varsmhgaf2hbj2rmg7sokcsarjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
